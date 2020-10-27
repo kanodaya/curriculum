@@ -1,12 +1,21 @@
 
 @media screen and (max-width: 767px) {
+    #wrapper {
+        width: 75%;
+    }
 }
 
 @media screen and (max-width: 479px) {
-}
 
-.contents {
-    float: none; /* 要素の浮動化の解除 */
+    #wrapper {
+        width: 37.5%;
     }
+
+    .contents {
+        float: none; /* 要素の浮動化の解除 */
+        }
+
+    
+}
 
     
