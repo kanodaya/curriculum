@@ -1,0 +1,77 @@
+
+body {
+	width: 100%;
+}
+
+.wrapper {
+	width: 400px;
+	margin: 0 auto;
+}
+
+/* 一番上の部分 */
+.header {
+	height: 100px;
+	background: #141f40;
+}
+
+/* 右サイドの黄緑の部分 */
+.side {
+	float: right;
+	width: 150px;
+	height: 250px;
+	background: #80bfa8;	
+}
+
+/* これは正方形に部分、何個か合計の */
+.content {
+	float: left;
+	width: 250px;
+	height: 250px;
+}
+
+/* 真ん中の幅 */
+.content-top-rigth {
+	float: right;
+	width: 150px;
+}
+
+/* 真ん中の小さい赤 */
+.content-top-rigth-top {
+	height: 50px;
+	background: #8c2727;
+}
+
+/* 真ん中のオレンジ */
+.content-top-rigth-bottom {
+	height: 100px;
+	background: #ff9e6b;
+}
+
+/* 左サイドの黄緑 */
+.content-top-left {
+	float: left;
+	width: 100px;
+	height: 150px;
+	background: #dbd403;
+}
+
+/* 真ん中の水色、横幅contentで指定済*/
+.content-bottom {
+	height: 100px;
+	background: #0093b7;
+}	
+
+/* フッター */
+.footer {
+	height: 100px;
+	background: #d98d30;
+}
+
+.clearfix::after { 
+    content: '';
+    display: block; 
+    clear: both;
+}
+
+
+
